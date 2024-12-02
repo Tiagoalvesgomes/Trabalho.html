@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Tiago Alves Gomes</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link para Font Awesome para ícones -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* Estilo de fundo marrom */
+        body {
+            background-color: #8B4513; /* Marrom */
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #3e2723;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Estilo do main */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #6f4f25;
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            color: #fff;
+            text-align: center;
+        }
+
+        form {
+            background-color: #3e2723;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        label {
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            background-color: #e0e0e0;
+            color: #333;
+        }
+
+        input[type="submit"] {
+            background-color: #3e2723;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #5d4037;
+        }
+
+        /* Estilo para links de redes sociais */
+        ul {
+            padding: 0;
+            text-align: center;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        ul li a:hover {
+            color: #ffd54f;
+        }
+
+        /* Estilo para os contatos */
+        .contacts ul {
+            text-align: center;
+        }
+
+        .contacts li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .contacts li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contacts li a:hover {
+            color: #ffd54f;
+        }
+
+        footer {
+            background-color: #3e2723;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Entre em Contato</h1>
+        <p>Se você está interessado em trabalhar comigo, ou se deseja saber mais sobre os serviços que ofereço, entre em contato através do formulário abaixo. Estou à disposição para responder dúvidas e oferecer mais informações.</p>
+
+        <form action="#" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+        <h2>Minhas Redes Sociais</h2>
+        <p>Conecte-se comigo através das minhas redes sociais:</p>
+        
+        <ul>
+            <li><a href="https://www.facebook.com/tiagoalvesgomes" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/tiagoalvesgomes" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/tiagoalvesgomes" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/tiagoalvesgomes" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/tiagoalvesgomes" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+
+        <div class="contacts">
+            <h2>Meus Contatos</h2>
+            <p>Você também pode entrar em contato diretamente pelo meu telefone ou e-mail:</p>
+            <ul>
+                <li><strong>Telefone:</strong> <a href="tel:+5531974018484">31 97401-8484</a></li>
+                <li><strong>E-mail:</strong> <a href="mailto:tiagodrap17@gmail.com">tiagodrap17@gmail.com</a></li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tiago Alves Gomes</p>
+    </footer>
+</body>
+</html>
